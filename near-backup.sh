@@ -27,9 +27,10 @@ else
     exit 0
 fi
 
-#sudo systemctl start neard
+sudo systemctl start neard
 
 echo "NEAR node was started" | ts
+
 
 echo ${STATUS[*]}
 
