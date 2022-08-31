@@ -31,6 +31,6 @@ sudo systemctl start neard
 
 echo "NEAR node was started" | ts
 
+find /mnt/backups/ -mtime +3 -exec rm -rf {} \;
 
 echo ${STATUS[*]}
-
