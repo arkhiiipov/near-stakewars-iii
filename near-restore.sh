@@ -11,3 +11,5 @@ rm -rf ${DATADIR}
 mkdir -p ${DATADIR}
 
 cd /root/.near/data &&  tar -xvf ${BACKUPDIR}/near_${DATE}/near-db-backup.tar.gz
+
+systemctl start neard
