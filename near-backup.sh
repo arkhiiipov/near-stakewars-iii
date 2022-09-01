@@ -20,7 +20,6 @@ if [ -d "$BACKUPDIR" ]; then
     cp -rf near-db-backup.tar.gz ${BACKUPDIR}
     rm -rf near-db-backup.tar.gz
     sha1sum ${BACKUPDIR}/${BACKUPNAME}.tar.gz | awk '{print $1}' > ${BACKUPDIR}/${BACKUPNAME}.hash
-    find /mnt/backups/ -mtime +3 -exec rm -rf {} \;
     echo "Backup completed" | ts
 else
     echo ${BACKUPDIR} is not created. Check your permissions.
