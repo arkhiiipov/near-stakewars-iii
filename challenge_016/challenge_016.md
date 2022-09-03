@@ -1,3 +1,12 @@
+# Connect a node validator for sending notifications through Notifi
+
+## Getting credentials
+
+I got credentials on my e-mail on the second day after completeng form by link shared [#integration-requests](https://discord.com/invite/nAqR3mk3rv) in Discord channel.
+
+![img](../images/monitoring/notifi-service-credentials.png)
+
+## Apply script
 
 ```bash
 git clone https://github.com/arkhiiipov/notifi-sdk-ts.git
@@ -31,3 +40,6 @@ node build/index.js
 which node
 
 ```
+
+Everething is ok I got e-mail message
+
