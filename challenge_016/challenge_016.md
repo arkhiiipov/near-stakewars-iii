@@ -18,7 +18,7 @@ I got credentials on my e-mail on the second day after completeng form by link s
 ```bash
 git clone https://github.com/arkhiiipov/notifi-sdk-ts.git
 
-cd notifi-near-integration
+cd notifi-sdk-ts
 
 npm i
 
